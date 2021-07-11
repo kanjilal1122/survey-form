@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css"  >
+        <style>
+           
+               
+        </style>
+        
+    </head>
+    <body>
+        <h2>E-Learning Survey Form</h2>
+        <form class="form-con">
+            <div class="form-div">
+                <label for="name" id="label-name">
+                    Full Name
+                </label>
+                <input type="text" id="name" placeholder="Enter Your Full Name" required/>
+            </div>
+            <!-- Email section -->
+            <div class="form-div">
+                <label for="email" id="label-email">
+                    Email
+                </label>
+                <input type="email" id="email" placeholder="Enter Your valid email" required/>
+            </div>
+            <!-- Phone Number -->
+            <div class="form-div">
+                <label for="Phone" id="label-phone">
+                    Phone Number
+                </label>
+                <input type="number" id="Phone" placeholder="Enter Your Phone Number" required/>
+            </div>
+            <div class="form-div">
+                <label>
+                    1.  How do you fill overall about E-learning ?
+                </label>
+                <!-- radio type of input start here -->
+                <label for="question-1.1" >
+                    <input type="radio" id="question-1.1" name="question-1">
+                    Poor.</input>
+                </label>
+                <label for="question-1.2" >
+                    <input type="radio" id="question-1.2" name="question-1">
+                    Good.</input>
+                </label>
+
+                <label for="question-1.3" >
+                    <input type="radio" id="question-1.3" name="question-1">
+                    Excelent.</input>
+                </label>
+            </div>
+            <!-- Question 2 start here -->
+            <div class="form-div">
+                <label>
+                    2. What device do you use for E-learning ?
+                </label>
+                <!-- radio type of input start here -->
+                <label for="question-2.1" >
+                    <input type="radio" id="question-2.1" name="question-2"/>
+                    Laptop.
+                </label>
+                <label for="question-2.2" >
+                    <input type="radio" id="question-2.2" name="question-2"/>
+                    Desktop.
+                </label>
+
+                <label for="question-2.3" >
+                    <input type="radio" id="question-2.3" name="question-2"/>
+                    Smart Phone.
+                </label>
+                <label for="question-2.4" >
+                    <input type="radio" id="question-2.4" name="question-2"/>
+                    Tablet.
+                </label>
+
+            </div>
+            <!-- Question 3 start here -->
+            <div class="form-div">
+                <label>
+                   3. How much time do you speend each day on an average for E-learning ?
+                </label>
+                <!-- radio type of input start here -->
+                <label for="question-3.1" >
+                    <input type="radio" id="question-3.1" name="question-3"/>
+                    1-3 Hours.
+                </label>
+                <label for="question-3.2" >
+                    <input type="radio" id="question-3.2" name="question-3"/>
+                    3-5 Hours.
+                </label>
+
+                <label for="question-3.3" >
+                    <input type="radio" id="question-3.3" name="question-3"/>
+                    5-7 Hours.
+                </label>
+                <label for="question-3.4" >
+                    <input type="radio" id="question-3.4" name="question-3"/>
+                    7+ Hours.
+                </label>
+                </div>
+                <!-- Question 4 start here -->
+                <div class="form-div">
+                    <label>
+                       4. How effective has remote learning been for you ? 
+                    </label>
+                    <!-- radio type of input start here -->
+                    <label for="question-4.1" >
+                        <input type="radio" id="question-4.1" name="question-4"/>
+                        Not all Effective.
+                    </label>
+                    <label for="question-4.2" >
+                        <input type="radio" id="question-4.2" name="question-4"/>
+                        Slightly Effective.
+                    </label>
+    
+                    <label for="question-4.3" >
+                        <input type="radio" id="question-4.3" name="question-4"/>
+                        very Effective.
+                    </label>
+                    <label for="question-4.4" >
+                        <input type="radio" id="question-4.4" name="question-4"/>
+                        Extremely Effective.
+                    </label>
+                    </div>
+                    <!-- Question 5 Start here -->
+                    <div class="form-div">
+                        <label>
+                           5.  do you enjoy E-learning remotly ?
+                        </label>
+                        <!-- radio type of input start here -->
+                        <label for="question-5.1" >
+                            <input type="radio" id="question-5.1" name="question"/>
+                            Yes , absolutly .
+                        </label>
+                        <label for="question-5.2" >
+                            <input type="radio" id="question-5.2" name="question"/>
+                            No , There are quite a few challenges.
+                        </label>
+        
+                        <label for="question-5.3" >
+                            <input type="radio" id="question-5.3" name="question"/>
+                            no , not at all.
+                        </label>
+            </div>
+            <!-- Question 6 start here -->
+            <div class="form-div">
+                <label>
+                   6. How helpful are your teachers while studying online ?
+                </label>
+                <!-- radio type of input start here -->
+                <label for="question-6.1" >
+                    <input type="radio" id="question-6.1" name="question"/>
+                    Not all helpful .
+                </label>
+                <label for="question-6.2" >
+                    <input type="radio" id="question-6.2" name="question"/>
+                    Slightly helpfu.
+                </label>
+
+                <label for="question-6.3" >
+                    <input type="radio" id="question-6.3" name="question"/>
+                    Moderately helpful.
+                </label>
+                <label for="question-6.4" >
+                    <input type="radio" id="question-6.4" name="question"/>
+                    Very helpful.
+                </label>
+                <label for="question-6.5">
+                    <input type="radio" id="question-6.5" name="question"/>
+                    Extremely helpful.
+                </label>
+                </div>
+                <div class="form-div">
+                    <label for="comments">
+                        Comments:
+                        <textarea id="cpomments" placeholder="Write your comments here"></textarea>
+                    </label>
+                     </div>
+                
+                         <button  type="submit" value="submit">Submit</button>
+                     
+
+
+        </form>
+
+    </body>
+</html>
+   
+       
